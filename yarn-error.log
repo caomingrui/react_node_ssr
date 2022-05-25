@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\mingrui\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add cmrPack
+
+PATH: 
+  X:\test\vue\myVue\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\mingrui\node_modules\yarn\bin;C:\Users\mingrui\AppData\Local\Yarn\bin;C:\Program Files\Java\jdk1.8.0_73\bin;C:\Program Files\Java\jdk1.8.0_73\jre\bin;Z:\weknow\weknow\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\mingrui\AppData\Local\Microsoft\WindowsApps;C:\Users\mingrui\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  16.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/cmrPack: Not found
+      at Request.params.callback [as _callback] (C:\Users\mingrui\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66992:18)
+      at Request.self.callback (C:\Users\mingrui\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140763:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (C:\Users\mingrui\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141735:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (C:\Users\mingrui\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141657:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "myvue",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

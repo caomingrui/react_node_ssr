@@ -1,10 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
 
-const Home = () => {
-
+const Home = (props) => {
+    // console.log(props, 'props')
     return (
         <div>
-            Home
+            home {props && props.children}
         </div>
     );
 }
